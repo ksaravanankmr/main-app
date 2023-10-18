@@ -1,9 +1,10 @@
-package com.example.findmyip.presentation
+package com.example.mainapp.presentation
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.example.findmyip.domain.IpRepository
 import com.example.findmyip.domain.model.IpAddress
 import com.example.findmyip.domain.model.Resource
+import com.example.findmyip.presentation.IpDetailsScreenViewModel
 import junit.framework.TestCase.assertEquals
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi

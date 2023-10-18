@@ -1,4 +1,4 @@
-package com.example.findmyip.data.repository
+package com.example.mainapp.data.repository
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.example.findmyip.domain.IpRepository

@@ -1,4 +1,4 @@
-package com.example.findmyip.presentation
+package com.example.mainapp.presentation
 
 import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.junit4.createComposeRule
@@ -6,6 +6,8 @@ import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import com.example.findmyip.domain.model.IpAddress
 import com.example.findmyip.domain.model.Resource
+import com.example.findmyip.presentation.IpDetailsScreen
+import com.example.findmyip.presentation.IpDetailsScreenUiState
 import org.junit.Rule
 import org.junit.Test
 
